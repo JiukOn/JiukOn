@@ -1,7 +1,6 @@
 ### Hi, I'm João Lagemann 👋
 
 - ✨ I’m currently learning javascript.
--->
 
 <div align="center">
   <a href="https://linktr.ee/JiukOn">
