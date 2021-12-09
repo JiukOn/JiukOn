@@ -1,7 +1,6 @@
-### Hi there 👋
-✨ 
+### Hi, I'm João Lagemann 👋
 
-- 🌱 I’m currently learning javascript.
+- ✨ I’m currently learning javascript.
 -->
 
 <div align="center">
