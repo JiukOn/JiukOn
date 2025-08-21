@@ -1,6 +1,6 @@
 ### Hi, I'm João Lagemann 👋
 
-- ✨ I’m currently learning javascript.
+- ✨ I’m currently a Web/Java/Game developer.
 
 <div align="center">
   <a href="https://linktr.ee/JiukOn">
