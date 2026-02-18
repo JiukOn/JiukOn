@@ -64,9 +64,6 @@ export function generateMatrixRain(activity: { date: string; count: number }[]):
         
         <rect width="100%" height="100%" fill="url(#rainFade)" />
         
-        <text x="15" y="${height - 20}" fill="${theme.colors.primary}" font-family="${theme.fonts.mono}" font-size="9" font-weight="bold" opacity="0.8">
-            [RECORDS_RECOVERED: ${activity.length}]
-        </text>
     </svg>
     `;
 }

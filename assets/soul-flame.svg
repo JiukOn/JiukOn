@@ -8,7 +8,7 @@
         <rect width="100%" height="100%" fill="#0d1117" rx="15" />
         
         <text x="25" y="35" fill="#8b5cf6" font-family="'Courier New', Courier, monospace" font-size="14" letter-spacing="2" font-weight="bold">
-            VOID_ENERGY // KERNEL_CORE
+            TECH STACK FLAMES
         </text>
 
         <line x1="25" y1="45" x2="475" y2="45" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4" />
@@ -24,12 +24,12 @@
                 </defs>
                 
                 <path fill="url(#flameGrad-0)" filter="url(#flameBlur)">
-                    <animate attributeName="d" dur="1.6737096201358597s" repeatCount="indefinite" begin="-0.9440516253625817s"
+                    <animate attributeName="d" dur="1.6771123120295s" repeatCount="indefinite" begin="-0.899896719633432s"
                         values="
-                            M0,0 Q-12,-74.89835884604736 0,-149.79671769209472 Q12,-74.89835884604736 0,0;
-                            M0,0 Q-18,-74.89835884604736 -3,-164.7763894613042 Q12,-74.89835884604736 0,0;
-                            M0,0 Q-12,-74.89835884604736 3,-134.81704592288526 Q18,-74.89835884604736 0,0;
-                            M0,0 Q-12,-74.89835884604736 0,-149.79671769209472 Q12,-74.89835884604736 0,0
+                            M0,0 Q-12,-74.56888473205075 0,-149.1377694641015 Q12,-74.56888473205075 0,0;
+                            M0,0 Q-18,-74.56888473205075 -3,-164.05154641051166 Q12,-74.56888473205075 0,0;
+                            M0,0 Q-12,-74.56888473205075 3,-134.22399251769136 Q18,-74.56888473205075 0,0;
+                            M0,0 Q-12,-74.56888473205075 0,-149.1377694641015 Q12,-74.56888473205075 0,0
                         "
                     />
                 </path>
@@ -38,7 +38,7 @@
                     Java
                 </text>
                 <text y="35" text-anchor="middle" fill="#6e7681" font-size="11" font-family="'Courier New', Courier, monospace" font-weight="bold">
-                    62.4%
+                    62.1%
                 </text>
             </g>
         
@@ -52,12 +52,12 @@
                 </defs>
                 
                 <path fill="url(#flameGrad-1)" filter="url(#flameBlur)">
-                    <animate attributeName="d" dur="1.8315966130707766s" repeatCount="indefinite" begin="-0.9981702155827132s"
+                    <animate attributeName="d" dur="1.7173215643754718s" repeatCount="indefinite" begin="-0.5586533574838242s"
                         values="
-                            M0,0 Q-12,-16.477189339947053 0,-32.954378679894106 Q12,-16.477189339947053 0,0;
-                            M0,0 Q-18,-16.477189339947053 -3,-36.24981654788352 Q12,-16.477189339947053 0,0;
-                            M0,0 Q-12,-16.477189339947053 3,-29.658940811904696 Q18,-16.477189339947053 0,0;
-                            M0,0 Q-12,-16.477189339947053 0,-32.954378679894106 Q12,-16.477189339947053 0,0
+                            M0,0 Q-12,-16.40470701266279 0,-32.80941402532558 Q12,-16.40470701266279 0,0;
+                            M0,0 Q-18,-16.40470701266279 -3,-36.09035542785814 Q12,-16.40470701266279 0,0;
+                            M0,0 Q-12,-16.40470701266279 3,-29.52847262279302 Q18,-16.40470701266279 0,0;
+                            M0,0 Q-12,-16.40470701266279 0,-32.80941402532558 Q12,-16.40470701266279 0,0
                         "
                     />
                 </path>
@@ -80,7 +80,7 @@
                 </defs>
                 
                 <path fill="url(#flameGrad-2)" filter="url(#flameBlur)">
-                    <animate attributeName="d" dur="2.3916147721015952s" repeatCount="indefinite" begin="-1.764846915736061s"
+                    <animate attributeName="d" dur="2.120676509466712s" repeatCount="indefinite" begin="-0.933748884942049s"
                         values="
                             M0,0 Q-12,-15 0,-30 Q12,-15 0,0;
                             M0,0 Q-18,-15 -3,-33 Q12,-15 0,0;
@@ -94,7 +94,7 @@
                     TypeScript
                 </text>
                 <text y="35" text-anchor="middle" fill="#6e7681" font-size="11" font-family="'Courier New', Courier, monospace" font-weight="bold">
-                    8.5%
+                    8.9%
                 </text>
             </g>
         
@@ -108,7 +108,7 @@
                 </defs>
                 
                 <path fill="url(#flameGrad-3)" filter="url(#flameBlur)">
-                    <animate attributeName="d" dur="2.125987249380932s" repeatCount="indefinite" begin="-0.3363307515790206s"
+                    <animate attributeName="d" dur="2.055344391284584s" repeatCount="indefinite" begin="-0.025977845294058888s"
                         values="
                             M0,0 Q-12,-15 0,-30 Q12,-15 0,0;
                             M0,0 Q-18,-15 -3,-33 Q12,-15 0,0;
@@ -122,7 +122,7 @@
                     HTML
                 </text>
                 <text y="35" text-anchor="middle" fill="#6e7681" font-size="11" font-family="'Courier New', Courier, monospace" font-weight="bold">
-                    6.9%
+                    6.8%
                 </text>
             </g>
         
@@ -136,7 +136,7 @@
                 </defs>
                 
                 <path fill="url(#flameGrad-4)" filter="url(#flameBlur)">
-                    <animate attributeName="d" dur="1.8475471528741818s" repeatCount="indefinite" begin="-0.7880099035446717s"
+                    <animate attributeName="d" dur="1.8477422988468404s" repeatCount="indefinite" begin="-1.1043572044477628s"
                         values="
                             M0,0 Q-12,-15 0,-30 Q12,-15 0,0;
                             M0,0 Q-18,-15 -3,-33 Q12,-15 0,0;
@@ -164,7 +164,7 @@
                 </defs>
                 
                 <path fill="url(#flameGrad-5)" filter="url(#flameBlur)">
-                    <animate attributeName="d" dur="1.5967536144337215s" repeatCount="indefinite" begin="-1.6403114031304142s"
+                    <animate attributeName="d" dur="2.281492127253871s" repeatCount="indefinite" begin="-1.110434006400689s"
                         values="
                             M0,0 Q-12,-15 0,-30 Q12,-15 0,0;
                             M0,0 Q-18,-15 -3,-33 Q12,-15 0,0;
@@ -192,7 +192,7 @@
                 </defs>
                 
                 <path fill="url(#flameGrad-6)" filter="url(#flameBlur)">
-                    <animate attributeName="d" dur="1.631032813679386s" repeatCount="indefinite" begin="-0.8688007884566318s"
+                    <animate attributeName="d" dur="1.5467208986386254s" repeatCount="indefinite" begin="-1.683018523014443s"
                         values="
                             M0,0 Q-12,-15 0,-30 Q12,-15 0,0;
                             M0,0 Q-18,-15 -3,-33 Q12,-15 0,0;
@@ -220,7 +220,7 @@
                 </defs>
                 
                 <path fill="url(#flameGrad-7)" filter="url(#flameBlur)">
-                    <animate attributeName="d" dur="2.2546662760694907s" repeatCount="indefinite" begin="-0.2610265160186038s"
+                    <animate attributeName="d" dur="2.36143887048806s" repeatCount="indefinite" begin="-1.8753526172437853s"
                         values="
                             M0,0 Q-12,-15 0,-30 Q12,-15 0,0;
                             M0,0 Q-18,-15 -3,-33 Q12,-15 0,0;

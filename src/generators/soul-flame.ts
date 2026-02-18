@@ -66,7 +66,7 @@ export function generateSoulFlame(languages: any[]): string {
         <rect width="100%" height="100%" fill="${theme.colors.bg}" rx="15" />
         
         <text x="25" y="35" fill="${theme.colors.primary}" font-family="${theme.fonts.mono}" font-size="14" letter-spacing="2" font-weight="bold">
-            VOID_ENERGY // KERNEL_CORE
+            TECH STACK FLAMES
         </text>
 
         <line x1="25" y1="45" x2="${width - 25}" y2="45" stroke="${theme.colors.surface.border}" stroke-width="1" stroke-dasharray="4 4" />
