@@ -1,69 +1,141 @@
 
-        <svg width="800" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
-            <rect width="100%" height="100%" fill="none" />
-            
-            <g transform="translate(0, 0)">
-                <rect x="10" y="10" width="180" height="80" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0.6" />
+        <svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .icon-pulse { animation: pulse 2s ease-in-out infinite; transform-origin: center; }
+                .icon-float { animation: float 3s ease-in-out infinite; }
+                .icon-spin { animation: spin 4s linear infinite; transform-origin: center; }
+                .icon-glow { animation: glow 2s ease-in-out infinite; }
+
+                @keyframes pulse { 0%, 100% { transform: scale(1) translate(0, 35px); } 50% { transform: scale(1.15) translate(0, 35px); } }
+                @keyframes float { 0%, 100% { transform: translate(0, 35px); } 50% { transform: translate(0, 30px); } }
+                @keyframes spin { from { transform: rotate(0deg) translate(0, 35px); } to { transform: rotate(360deg) translate(0, 35px); } }
+                @keyframes glow { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.5) drop-shadow(0 0 5px #00d4ff); } }
                 
-                <g transform="translate(50, 50)">
-                    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z" fill="#00d4ff" transform="scale(1.5) translate(-8, -8)" />
+                svg { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+            </style>
+            
+            <g transform="translate(0, 10)">
+                <rect width="185" height="100" rx="15" fill="#161b22" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.2" />
+                <rect width="185" height="100" rx="15" fill="url(#grad-0)" opacity="0.1" />
+                
+                <g class="icon-pulse" transform="translate(100, 35)">
+                    <path d="M10.5 7.75a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zm1.43.75a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 1 1 0-1.5h3.32a4.001 4.001 0 0 1 7.86 0h3.32a.75.75 0 1 1 0 1.5h-3.32z" fill="#8b5cf6" transform="scale(1.8) translate(-8, -8)" filter="url(#glow-0)" />
                 </g>
                 
-                <text x="110" y="45" text-anchor="start" fill="#e6edf3" font-size="24" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+                <text x="100" y="75" text-anchor="middle" fill="#e6edf3" font-size="22" font-weight="bold" font-family="'Courier New', Courier, monospace">
+                    134
+                </text>
+                
+                <text x="100" y="92" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace" letter-spacing="2" font-weight="bold">
+                    COMMITS
+                </text>
+
+                <defs>
+                    <linearGradient id="grad-0" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.5" />
+                        <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+                    </linearGradient>
+                    <filter id="glow-0">
+                        <feGaussianBlur stdDeviation="1.5" result="blur" />
+                        <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+            </g>
+        
+            <g transform="translate(200, 10)">
+                <rect width="185" height="100" rx="15" fill="#161b22" stroke="#6d28d9" stroke-width="1" stroke-opacity="0.2" />
+                <rect width="185" height="100" rx="15" fill="url(#grad-1)" opacity="0.1" />
+                
+                <g class="icon-float" transform="translate(100, 35)">
+                    <path d="M7.177 3.073L9.573.677A.25.25 0 0 1 10 .854v4.792a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354zM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zm-2.25.75a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0zm2.25 7.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zM1.5 10.75a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0zm11.25-5.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5z" fill="#6d28d9" transform="scale(1.8) translate(-8, -8)" filter="url(#glow-1)" />
+                </g>
+                
+                <text x="100" y="75" text-anchor="middle" fill="#e6edf3" font-size="22" font-weight="bold" font-family="'Courier New', Courier, monospace">
+                    0
+                </text>
+                
+                <text x="100" y="92" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace" letter-spacing="2" font-weight="bold">
+                    PRS
+                </text>
+
+                <defs>
+                    <linearGradient id="grad-1" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.5" />
+                        <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+                    </linearGradient>
+                    <filter id="glow-1">
+                        <feGaussianBlur stdDeviation="1.5" result="blur" />
+                        <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+            </g>
+        
+            <g transform="translate(400, 10)">
+                <rect width="185" height="100" rx="15" fill="#161b22" stroke="#ff3366" stroke-width="1" stroke-opacity="0.2" />
+                <rect width="185" height="100" rx="15" fill="url(#grad-2)" opacity="0.1" />
+                
+                <g class="icon-spin" transform="translate(100, 35)">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z" fill="#ff3366" transform="scale(1.8) translate(-8, -8)" filter="url(#glow-2)" />
+                </g>
+                
+                <text x="100" y="75" text-anchor="middle" fill="#e6edf3" font-size="22" font-weight="bold" font-family="'Courier New', Courier, monospace">
+                    0
+                </text>
+                
+                <text x="100" y="92" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace" letter-spacing="2" font-weight="bold">
+                    ISSUES
+                </text>
+
+                <defs>
+                    <linearGradient id="grad-2" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#ff3366" stop-opacity="0.5" />
+                        <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+                    </linearGradient>
+                    <filter id="glow-2">
+                        <feGaussianBlur stdDeviation="1.5" result="blur" />
+                        <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+            </g>
+        
+            <g transform="translate(600, 10)">
+                <rect width="185" height="100" rx="15" fill="#161b22" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.2" />
+                <rect width="185" height="100" rx="15" fill="url(#grad-3)" opacity="0.1" />
+                
+                <g class="icon-glow" transform="translate(100, 35)">
+                    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z" fill="#00d4ff" transform="scale(1.8) translate(-8, -8)" filter="url(#glow-3)" />
+                </g>
+                
+                <text x="100" y="75" text-anchor="middle" fill="#e6edf3" font-size="22" font-weight="bold" font-family="'Courier New', Courier, monospace">
                     22
                 </text>
                 
-                <text x="110" y="65" text-anchor="start" fill="#6e7681" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" letter-spacing="1">
+                <text x="100" y="92" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace" letter-spacing="2" font-weight="bold">
                     STARS
                 </text>
-            </g>
-        
-            <g transform="translate(200, 0)">
-                <rect x="10" y="10" width="180" height="80" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0.6" />
-                
-                <g transform="translate(50, 50)">
-                    <path d="M10.5 7.75a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zm1.43.75a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 1 1 0-1.5h3.32a4.001 4.001 0 0 1 7.86 0h3.32a.75.75 0 1 1 0 1.5h-3.32z" fill="#8b5cf6" transform="scale(1.5) translate(-8, -8)" />
-                </g>
-                
-                <text x="310" y="45" text-anchor="start" fill="#e6edf3" font-size="24" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-                    133
-                </text>
-                
-                <text x="310" y="65" text-anchor="start" fill="#6e7681" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" letter-spacing="1">
-                    COMMITS
-                </text>
-            </g>
-        
-            <g transform="translate(400, 0)">
-                <rect x="10" y="10" width="180" height="80" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0.6" />
-                
-                <g transform="translate(50, 50)">
-                    <path d="M7.177 3.073L9.573.677A.25.25 0 0 1 10 .854v4.792a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354zM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zm-2.25.75a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0zm2.25 7.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zM1.5 10.75a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0zm11.25-5.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zM10.5 6.25a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0z" fill="#6d28d9" transform="scale(1.5) translate(-8, -8)" />
-                </g>
-                
-                <text x="510" y="45" text-anchor="start" fill="#e6edf3" font-size="24" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-                    0
-                </text>
-                
-                <text x="510" y="65" text-anchor="start" fill="#6e7681" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" letter-spacing="1">
-                    PRS
-                </text>
-            </g>
-        
-            <g transform="translate(600, 0)">
-                <rect x="10" y="10" width="180" height="80" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0.6" />
-                
-                <g transform="translate(50, 50)">
-                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z" fill="#ff3366" transform="scale(1.5) translate(-8, -8)" />
-                </g>
-                
-                <text x="710" y="45" text-anchor="start" fill="#e6edf3" font-size="24" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-                    0
-                </text>
-                
-                <text x="710" y="65" text-anchor="start" fill="#6e7681" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" letter-spacing="1">
-                    ISSUES
-                </text>
+
+                <defs>
+                    <linearGradient id="grad-3" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.5" />
+                        <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+                    </linearGradient>
+                    <filter id="glow-3">
+                        <feGaussianBlur stdDeviation="1.5" result="blur" />
+                        <feMerge>
+                            <feMergeNode in="blur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
             </g>
         
         </svg>

@@ -1,29 +1,32 @@
 import { theme } from '../theme';
 
 export function generateMatrixRain(activity: { date: string; count: number }[]): string {
-    const width = 400;
-    const height = 300;
-    const fontSize = 10;
-    const columns = Math.floor(width / fontSize);
+    const width = 300; 
+    const height = 400;
+    const fontSize = 11;
+    const columns = Math.floor(width / (fontSize + 4));
     
     const drops = Array.from({ length: columns }).map((_, i) => {
-        const activityItem = activity[i % activity.length] || { date: '0x00', count: 0 };
-        const text = activityItem.count > 0 
-            ? `${activityItem.date} [${activityItem.count}]` 
-            : `${Math.random().toString(16).substring(2, 8).toUpperCase()}`;
+        const activityIndex = i % activity.length;
+        const activityItem = activity[activityIndex] || { date: 'VOID', count: 0 };
         
-        const x = i * fontSize;
-        const delay = Math.random() * -5;
-        const duration = 3 + Math.random() * 5;
-        const color = activityItem.count > 5 ? theme.colors.secondary : theme.colors.primary;
-        const opacity = 0.3 + Math.random() * 0.7;
+        const rawText = activityItem.count > 0 
+            ? `${activityItem.date.replace(/-/g, '')}:${activityItem.count.toString().padStart(2, '0')}` 
+            : `0x${Math.random().toString(16).substring(2, 6).toUpperCase()}`;
+        
+        const x = i * (fontSize + 4);
+        const delay = Math.random() * -20;
+        const duration = 8 + Math.random() * 12;
+        const color = activityItem.count > 0 ? theme.colors.primary : theme.colors.void;
+        const glowColor = activityItem.count > 5 ? theme.colors.secondary : theme.colors.primary;
 
-        const chars = text.split('').map((char, j) => {
-            return `<text x="${x}" y="${j * fontSize}" fill="${color}" opacity="${opacity - (j * 0.05)}">${char}</text>`;
+        const chars = rawText.split('').map((char, j) => {
+            const charOpacity = Math.max(0.1, 1 - (j * 0.1));
+            return `<text x="${x}" y="${j * fontSize}" fill="${color}" fill-opacity="${charOpacity}" filter="url(#matrixGlow)">${char}</text>`;
         }).join('');
 
         return `
-            <g font-family="${theme.fonts.mono}" font-size="${fontSize}" style="animation: fall ${duration}s linear infinite; animation-delay: ${delay}s">
+            <g font-family="${theme.fonts.mono}" font-size="${fontSize}" font-weight="bold" style="animation: fall ${duration}s linear infinite; animation-delay: ${delay}s">
                 ${chars}
             </g>
         `;
@@ -32,10 +35,18 @@ export function generateMatrixRain(activity: { date: string; count: number }[]):
     return `
     <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
         <defs>
-            <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
-                <stop offset="0%" stop-color="${theme.colors.bg}" stop-opacity="0"/>
-                <stop offset="80%" stop-color="${theme.colors.bg}" stop-opacity="0.8"/>
-                <stop offset="100%" stop-color="${theme.colors.bg}" stop-opacity="1"/>
+            <filter id="matrixGlow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="1" result="blur"/>
+                <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+            <linearGradient id="rainFade" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0%" stop-color="${theme.colors.bg}" stop-opacity="0.9"/>
+                <stop offset="20%" stop-color="${theme.colors.bg}" stop-opacity="0"/>
+                <stop offset="80%" stop-color="${theme.colors.bg}" stop-opacity="0"/>
+                <stop offset="100%" stop-color="${theme.colors.bg}" stop-opacity="0.9"/>
             </linearGradient>
             <style>
                 @keyframes fall {
@@ -45,16 +56,16 @@ export function generateMatrixRain(activity: { date: string; count: number }[]):
             </style>
         </defs>
         
-        <rect width="100%" height="100%" fill="${theme.colors.bg}" />
+        <rect width="100%" height="100%" fill="${theme.colors.bg}" rx="15" />
         
-        <g>
+        <g opacity="0.6">
             ${drops}
         </g>
         
-        <rect width="100%" height="100%" fill="url(#fade)" />
+        <rect width="100%" height="100%" fill="url(#rainFade)" />
         
-        <text x="10" y="20" fill="${theme.colors.text.dim}" font-family="${theme.fonts.mono}" font-size="10">
-            SYSTEM_ACTIVITY_LOG // MONITORING
+        <text x="15" y="${height - 20}" fill="${theme.colors.primary}" font-family="${theme.fonts.mono}" font-size="9" font-weight="bold" opacity="0.8">
+            [RECORDS_RECOVERED: ${activity.length}]
         </text>
     </svg>
     `;

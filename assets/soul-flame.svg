@@ -1,173 +1,289 @@
 
-    <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
-        <rect width="100%" height="100%" fill="#0d1117" />
-        <text x="200" y="30" text-anchor="middle" fill="#8b5cf6" font-size="12" font-family="'Courier New', Courier, monospace" letter-spacing="2" opacity="0.8">
-            SOUL_FLAME // TECH_STACK
+    <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="flameBlur" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="3" />
+            </filter>
+        </defs>
+        <rect width="100%" height="100%" fill="#0d1117" rx="15" />
+        
+        <text x="30" y="35" fill="#8b5cf6" font-family="'Courier New', Courier, monospace" font-size="12" letter-spacing="3" font-weight="bold">
+            VOID_ENERGY // KERNEL_CORE
         </text>
+
+        <line x1="30" y1="45" x2="770" y2="45" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4" />
+
         
-            <g transform="translate(80, 240)">
-                <path fill="#b07219" opacity="0.8">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.494105298119881s" 
-                        repeatCount="indefinite"
-                        values="
-                            M0,0 Q-15,-80 0,-160 Q15,-80 0,0;
-                            M0,0 Q-20,-80 -5,-168 Q10,-80 0,0;
-                            M0,0 Q-10,-80 5,-152 Q20,-80 0,0;
-                            M0,0 Q-15,-80 0,-160 Q15,-80 0,0
-                        "
-                    />
-                </path>
+            <g transform="translate(50, 240)">
+                <defs>
+                    <linearGradient id="flameGrad-0" x1="0%" y1="100%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="#b07219" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
                 
-                <path fill="#ffffff" opacity="0.3">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.494105298119881s" 
-                        repeatCount="indefinite"
+                <path fill="url(#flameGrad-0)" filter="url(#flameBlur)">
+                    <animate attributeName="d" dur="2.3303046066255617s" repeatCount="indefinite" begin="-1.8483629812441587s"
                         values="
-                            M0,0 Q-5,-53.333333333333336 0,-106.66666666666667 Q5,-53.333333333333336 0,0;
-                            M0,0 Q-7,-53.333333333333336 -2,-106.66666666666667 Q3,-53.333333333333336 0,0;
-                            M0,0 Q-3,-53.333333333333336 2,-106.66666666666667 Q7,-53.333333333333336 0,0;
-                            M0,0 Q-5,-53.333333333333336 0,-106.66666666666667 Q5,-53.333333333333336 0,0
+                            M0,0 Q-15,-140.4344228363388 0,-280.8688456726776 Q15,-140.4344228363388 0,0;
+                            M0,0 Q-25,-140.4344228363388 -5,-308.95573023994535 Q15,-140.4344228363388 0,0;
+                            M0,0 Q-15,-140.4344228363388 5,-252.78196110540983 Q25,-140.4344228363388 0,0;
+                            M0,0 Q-15,-140.4344228363388 0,-280.8688456726776 Q15,-140.4344228363388 0,0
                         "
                     />
                 </path>
 
-                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Java</text>
-                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">63.8%</text>
+                <circle r="4" fill="#b07219" opacity="0.5">
+                    <animate attributeName="cy" values="0;-100" dur="4.660609213251123s" repeatCount="indefinite" />
+                    <animate attributeName="cx" values="0;-12.483243793060446" dur="4.660609213251123s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0" dur="4.660609213251123s" repeatCount="indefinite" />
+                </circle>
+
+                <text y="25" text-anchor="middle" fill="#e6edf3" font-size="10" font-weight="bold" font-family="'Courier New', Courier, monospace" style="text-transform: uppercase">
+                    Java
+                </text>
+                <text y="38" text-anchor="middle" fill="#6e7681" font-size="8" font-family="'Courier New', Courier, monospace" opacity="0.6">
+                    62.4%
+                </text>
             </g>
         
-            <g transform="translate(140, 240)">
-                <path fill="#f1e05a" opacity="0.8">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.31356630215536s" 
-                        repeatCount="indefinite"
-                        values="
-                            M0,0 Q-15,-37.443028196214755 0,-74.88605639242951 Q15,-37.443028196214755 0,0;
-                            M0,0 Q-20,-37.443028196214755 -5,-78.63035921205099 Q10,-37.443028196214755 0,0;
-                            M0,0 Q-10,-37.443028196214755 5,-71.14175357280803 Q20,-37.443028196214755 0,0;
-                            M0,0 Q-15,-37.443028196214755 0,-74.88605639242951 Q15,-37.443028196214755 0,0
-                        "
-                    />
-                </path>
+            <g transform="translate(150, 240)">
+                <defs>
+                    <linearGradient id="flameGrad-1" x1="0%" y1="100%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="#f1e05a" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
                 
-                <path fill="#ffffff" opacity="0.3">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.31356630215536s" 
-                        repeatCount="indefinite"
+                <path fill="url(#flameGrad-1)" filter="url(#flameBlur)">
+                    <animate attributeName="d" dur="2.297358043760326s" repeatCount="indefinite" begin="-1.0259584182284838s"
                         values="
-                            M0,0 Q-5,-24.962018797476503 0,-49.924037594953006 Q5,-24.962018797476503 0,0;
-                            M0,0 Q-7,-24.962018797476503 -2,-49.924037594953006 Q3,-24.962018797476503 0,0;
-                            M0,0 Q-3,-24.962018797476503 2,-49.924037594953006 Q7,-24.962018797476503 0,0;
-                            M0,0 Q-5,-24.962018797476503 0,-49.924037594953006 Q5,-24.962018797476503 0,0
+                            M0,0 Q-15,-30.89473001240072 0,-61.78946002480144 Q15,-30.89473001240072 0,0;
+                            M0,0 Q-25,-30.89473001240072 -5,-67.96840602728159 Q15,-30.89473001240072 0,0;
+                            M0,0 Q-15,-30.89473001240072 5,-55.6105140223213 Q25,-30.89473001240072 0,0;
+                            M0,0 Q-15,-30.89473001240072 0,-61.78946002480144 Q15,-30.89473001240072 0,0
                         "
                     />
                 </path>
 
-                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">JavaScript</text>
-                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">14.0%</text>
+                <circle r="4" fill="#f1e05a" opacity="0.5">
+                    <animate attributeName="cy" values="0;-100" dur="4.594716087520652s" repeatCount="indefinite" />
+                    <animate attributeName="cx" values="0;-18.28906406196216" dur="4.594716087520652s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0" dur="4.594716087520652s" repeatCount="indefinite" />
+                </circle>
+
+                <text y="25" text-anchor="middle" fill="#e6edf3" font-size="10" font-weight="bold" font-family="'Courier New', Courier, monospace" style="text-transform: uppercase">
+                    JavaScript
+                </text>
+                <text y="38" text-anchor="middle" fill="#6e7681" font-size="8" font-family="'Courier New', Courier, monospace" opacity="0.6">
+                    13.7%
+                </text>
             </g>
         
-            <g transform="translate(200, 240)">
-                <path fill="#e34c26" opacity="0.8">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.5141195867419026s" 
-                        repeatCount="indefinite"
+            <g transform="translate(250, 240)">
+                <defs>
+                    <linearGradient id="flameGrad-2" x1="0%" y1="100%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="#3178c6" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+                
+                <path fill="url(#flameGrad-2)" filter="url(#flameBlur)">
+                    <animate attributeName="d" dur="2.0926473280820845s" repeatCount="indefinite" begin="-1.9512954694248061s"
                         values="
                             M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
-                            M0,0 Q-20,-20 -5,-42 Q10,-20 0,0;
-                            M0,0 Q-10,-20 5,-38 Q20,-20 0,0;
+                            M0,0 Q-25,-20 -5,-44 Q15,-20 0,0;
+                            M0,0 Q-15,-20 5,-36 Q25,-20 0,0;
                             M0,0 Q-15,-20 0,-40 Q15,-20 0,0
                         "
                     />
                 </path>
-                
-                <path fill="#ffffff" opacity="0.3">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.5141195867419026s" 
-                        repeatCount="indefinite"
-                        values="
-                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0;
-                            M0,0 Q-7,-13.333333333333334 -2,-26.666666666666668 Q3,-13.333333333333334 0,0;
-                            M0,0 Q-3,-13.333333333333334 2,-26.666666666666668 Q7,-13.333333333333334 0,0;
-                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0
-                        "
-                    />
-                </path>
 
-                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">HTML</text>
-                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">7.0%</text>
+                <circle r="4" fill="#3178c6" opacity="0.5">
+                    <animate attributeName="cy" values="0;-100" dur="4.185294656164169s" repeatCount="indefinite" />
+                    <animate attributeName="cx" values="0;-11.034301089611812" dur="4.185294656164169s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0" dur="4.185294656164169s" repeatCount="indefinite" />
+                </circle>
+
+                <text y="25" text-anchor="middle" fill="#e6edf3" font-size="10" font-weight="bold" font-family="'Courier New', Courier, monospace" style="text-transform: uppercase">
+                    TypeScript
+                </text>
+                <text y="38" text-anchor="middle" fill="#6e7681" font-size="8" font-family="'Courier New', Courier, monospace" opacity="0.6">
+                    8.5%
+                </text>
             </g>
         
-            <g transform="translate(260, 240)">
-                <path fill="#3178c6" opacity="0.8">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.5905112349198696s" 
-                        repeatCount="indefinite"
+            <g transform="translate(350, 240)">
+                <defs>
+                    <linearGradient id="flameGrad-3" x1="0%" y1="100%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="#e34c26" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+                
+                <path fill="url(#flameGrad-3)" filter="url(#flameBlur)">
+                    <animate attributeName="d" dur="1.6022227828185547s" repeatCount="indefinite" begin="-0.689311380910685s"
                         values="
                             M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
-                            M0,0 Q-20,-20 -5,-42 Q10,-20 0,0;
-                            M0,0 Q-10,-20 5,-38 Q20,-20 0,0;
+                            M0,0 Q-25,-20 -5,-44 Q15,-20 0,0;
+                            M0,0 Q-15,-20 5,-36 Q25,-20 0,0;
                             M0,0 Q-15,-20 0,-40 Q15,-20 0,0
                         "
                     />
                 </path>
-                
-                <path fill="#ffffff" opacity="0.3">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.5905112349198696s" 
-                        repeatCount="indefinite"
-                        values="
-                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0;
-                            M0,0 Q-7,-13.333333333333334 -2,-26.666666666666668 Q3,-13.333333333333334 0,0;
-                            M0,0 Q-3,-13.333333333333334 2,-26.666666666666668 Q7,-13.333333333333334 0,0;
-                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0
-                        "
-                    />
-                </path>
 
-                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">TypeScript</text>
-                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">6.4%</text>
+                <circle r="4" fill="#e34c26" opacity="0.5">
+                    <animate attributeName="cy" values="0;-100" dur="3.2044455656371094s" repeatCount="indefinite" />
+                    <animate attributeName="cx" values="0;4.713072110451972" dur="3.2044455656371094s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0" dur="3.2044455656371094s" repeatCount="indefinite" />
+                </circle>
+
+                <text y="25" text-anchor="middle" fill="#e6edf3" font-size="10" font-weight="bold" font-family="'Courier New', Courier, monospace" style="text-transform: uppercase">
+                    HTML
+                </text>
+                <text y="38" text-anchor="middle" fill="#6e7681" font-size="8" font-family="'Courier New', Courier, monospace" opacity="0.6">
+                    6.9%
+                </text>
             </g>
         
-            <g transform="translate(320, 240)">
-                <path fill="#663399" opacity="0.8">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.1500864265744024s" 
-                        repeatCount="indefinite"
+            <g transform="translate(450, 240)">
+                <defs>
+                    <linearGradient id="flameGrad-4" x1="0%" y1="100%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="#663399" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+                
+                <path fill="url(#flameGrad-4)" filter="url(#flameBlur)">
+                    <animate attributeName="d" dur="1.9643637765881792s" repeatCount="indefinite" begin="-0.8187845945538701s"
                         values="
                             M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
-                            M0,0 Q-20,-20 -5,-42 Q10,-20 0,0;
-                            M0,0 Q-10,-20 5,-38 Q20,-20 0,0;
+                            M0,0 Q-25,-20 -5,-44 Q15,-20 0,0;
+                            M0,0 Q-15,-20 5,-36 Q25,-20 0,0;
                             M0,0 Q-15,-20 0,-40 Q15,-20 0,0
                         "
                     />
                 </path>
+
+                <circle r="4" fill="#663399" opacity="0.5">
+                    <animate attributeName="cy" values="0;-100" dur="3.9287275531763584s" repeatCount="indefinite" />
+                    <animate attributeName="cx" values="0;5.8521639434377715" dur="3.9287275531763584s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0" dur="3.9287275531763584s" repeatCount="indefinite" />
+                </circle>
+
+                <text y="25" text-anchor="middle" fill="#e6edf3" font-size="10" font-weight="bold" font-family="'Courier New', Courier, monospace" style="text-transform: uppercase">
+                    CSS
+                </text>
+                <text y="38" text-anchor="middle" fill="#6e7681" font-size="8" font-family="'Courier New', Courier, monospace" opacity="0.6">
+                    4.2%
+                </text>
+            </g>
+        
+            <g transform="translate(550, 240)">
+                <defs>
+                    <linearGradient id="flameGrad-5" x1="0%" y1="100%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="#178600" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
                 
-                <path fill="#ffffff" opacity="0.3">
-                    <animate 
-                        attributeName="d" 
-                        dur="2.1500864265744024s" 
-                        repeatCount="indefinite"
+                <path fill="url(#flameGrad-5)" filter="url(#flameBlur)">
+                    <animate attributeName="d" dur="2.2512885396969624s" repeatCount="indefinite" begin="-0.5847323387603973s"
                         values="
-                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0;
-                            M0,0 Q-7,-13.333333333333334 -2,-26.666666666666668 Q3,-13.333333333333334 0,0;
-                            M0,0 Q-3,-13.333333333333334 2,-26.666666666666668 Q7,-13.333333333333334 0,0;
-                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
+                            M0,0 Q-25,-20 -5,-44 Q15,-20 0,0;
+                            M0,0 Q-15,-20 5,-36 Q25,-20 0,0;
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0
                         "
                     />
                 </path>
 
-                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">CSS</text>
-                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">4.3%</text>
+                <circle r="4" fill="#178600" opacity="0.5">
+                    <animate attributeName="cy" values="0;-100" dur="4.502577079393925s" repeatCount="indefinite" />
+                    <animate attributeName="cx" values="0;9.200344987724929" dur="4.502577079393925s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0" dur="4.502577079393925s" repeatCount="indefinite" />
+                </circle>
+
+                <text y="25" text-anchor="middle" fill="#e6edf3" font-size="10" font-weight="bold" font-family="'Courier New', Courier, monospace" style="text-transform: uppercase">
+                    C#
+                </text>
+                <text y="38" text-anchor="middle" fill="#6e7681" font-size="8" font-family="'Courier New', Courier, monospace" opacity="0.6">
+                    3.0%
+                </text>
+            </g>
+        
+            <g transform="translate(650, 240)">
+                <defs>
+                    <linearGradient id="flameGrad-6" x1="0%" y1="100%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="#3572A5" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+                
+                <path fill="url(#flameGrad-6)" filter="url(#flameBlur)">
+                    <animate attributeName="d" dur="2.1314789436614254s" repeatCount="indefinite" begin="-0.24592900667569872s"
+                        values="
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
+                            M0,0 Q-25,-20 -5,-44 Q15,-20 0,0;
+                            M0,0 Q-15,-20 5,-36 Q25,-20 0,0;
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0
+                        "
+                    />
+                </path>
+
+                <circle r="4" fill="#3572A5" opacity="0.5">
+                    <animate attributeName="cy" values="0;-100" dur="4.262957887322851s" repeatCount="indefinite" />
+                    <animate attributeName="cx" values="0;9.768257147375085" dur="4.262957887322851s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0" dur="4.262957887322851s" repeatCount="indefinite" />
+                </circle>
+
+                <text y="25" text-anchor="middle" fill="#e6edf3" font-size="10" font-weight="bold" font-family="'Courier New', Courier, monospace" style="text-transform: uppercase">
+                    Python
+                </text>
+                <text y="38" text-anchor="middle" fill="#6e7681" font-size="8" font-family="'Courier New', Courier, monospace" opacity="0.6">
+                    0.7%
+                </text>
+            </g>
+        
+            <g transform="translate(750, 240)">
+                <defs>
+                    <linearGradient id="flameGrad-7" x1="0%" y1="100%" x2="0%" y2="0%">
+                        <stop offset="0%" stop-color="#555555" />
+                        <stop offset="50%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+                
+                <path fill="url(#flameGrad-7)" filter="url(#flameBlur)">
+                    <animate attributeName="d" dur="2.0321538642850108s" repeatCount="indefinite" begin="-0.13931874131329458s"
+                        values="
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
+                            M0,0 Q-25,-20 -5,-44 Q15,-20 0,0;
+                            M0,0 Q-15,-20 5,-36 Q25,-20 0,0;
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0
+                        "
+                    />
+                </path>
+
+                <circle r="4" fill="#555555" opacity="0.5">
+                    <animate attributeName="cy" values="0;-100" dur="4.0643077285700215s" repeatCount="indefinite" />
+                    <animate attributeName="cx" values="0;19.773246783460685" dur="4.0643077285700215s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0" dur="4.0643077285700215s" repeatCount="indefinite" />
+                </circle>
+
+                <text y="25" text-anchor="middle" fill="#e6edf3" font-size="10" font-weight="bold" font-family="'Courier New', Courier, monospace" style="text-transform: uppercase">
+                    C
+                </text>
+                <text y="38" text-anchor="middle" fill="#6e7681" font-size="8" font-family="'Courier New', Courier, monospace" opacity="0.6">
+                    0.5%
+                </text>
             </g>
         
     </svg>
