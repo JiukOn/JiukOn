@@ -1,7 +1,7 @@
 import { theme } from '../theme';
 
 export function generateMatrixRain(activity: { date: string; count: number }[]): string {
-    const width = 300; 
+    const width = 500; 
     const height = 400;
     const fontSize = 11;
     const columns = Math.floor(width / (fontSize + 4));
