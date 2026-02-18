@@ -38,15 +38,15 @@ export function generateHUD(stats: { totalStars: number; totalCommits: number; t
 
     const generateItem = (item: any, index: number) => {
         const x = index * itemWidth;
-        const centerX = itemWidth / 2;
+        const centerX = (itemWidth - 15) / 2;
         
         return `
-            <g transform="translate(${x}, 10)">
+            <g transform="translate(${x + 7.5}, 10)">
                 <rect width="${itemWidth - 15}" height="100" rx="15" fill="${theme.colors.surface.panel}" stroke="${item.color}" stroke-width="1" stroke-opacity="0.2" />
                 <rect width="${itemWidth - 15}" height="100" rx="15" fill="url(#grad-${index})" opacity="0.1" />
                 
-                <g class="icon-${item.anim}" transform="translate(${centerX}, 35)">
-                    <path d="${item.icon}" fill="${item.color}" transform="scale(1.8) translate(-8, -8)" filter="url(#glow-${index})" />
+                <g class="icon-${item.anim}" style="transform-origin: ${centerX}px 35px;">
+                    <path d="${item.icon}" fill="${item.color}" transform="translate(${centerX - 14.4}, 20.6) scale(1.8)" filter="url(#glow-${index})" />
                 </g>
                 
                 <text x="${centerX}" y="75" text-anchor="middle" fill="${theme.colors.text.main}" font-size="22" font-weight="bold" font-family="${theme.fonts.mono}">
@@ -77,15 +77,15 @@ export function generateHUD(stats: { totalStars: number; totalCommits: number; t
     return `
         <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
             <style>
-                .icon-pulse { animation: pulse 2s ease-in-out infinite; transform-origin: center; }
+                .icon-pulse { animation: pulse 2s ease-in-out infinite; }
                 .icon-float { animation: float 3s ease-in-out infinite; }
-                .icon-spin { animation: spin 4s linear infinite; transform-origin: center; }
+                .icon-spin { animation: spin 4s linear infinite; }
                 .icon-glow { animation: glow 2s ease-in-out infinite; }
 
-                @keyframes pulse { 0%, 100% { transform: scale(1) translate(0, 35px); } 50% { transform: scale(1.15) translate(0, 35px); } }
-                @keyframes float { 0%, 100% { transform: translate(0, 35px); } 50% { transform: translate(0, 30px); } }
-                @keyframes spin { from { transform: rotate(0deg) translate(0, 35px); } to { transform: rotate(360deg) translate(0, 35px); } }
-                @keyframes glow { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.5) drop-shadow(0 0 5px ${theme.colors.secondary}); } }
+                @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+                @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+                @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+                @keyframes glow { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.6) drop-shadow(0 0 3px white); } }
                 
                 svg { font-family: ${theme.fonts.sans}; }
             </style>
