@@ -1,0 +1,138 @@
+
+    <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+                <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+            <style>
+                .orbit-container {
+                    animation: rotate 60s linear infinite;
+                    transform-origin: 400px 150px;
+                }
+                @keyframes rotate {
+                    from { transform: rotate(0deg); }
+                    to { transform: rotate(360deg); }
+                }
+            </style>
+        </defs>
+        
+        <rect width="100%" height="100%" fill="#0d1117" rx="12" />
+        
+        <g class="orbit-container">
+            <line x1="509.25563608770204" y1="150" x2="483.89858643656635" y2="210.9558910856992" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="483.89858643656635" y1="210.9558910856992" x2="432.31815677816127" y2="249.4650590679958" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="432.31815677816127" y1="249.4650590679958" x2="360.0773487594191" y2="272.869286483525" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="360.0773487594191" y1="272.869286483525" x2="313.8193840351917" y2="212.613882588131" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="313.8193840351917" y1="212.613882588131" x2="312.9380638332315" y2="150" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="312.9380638332315" y1="150" x2="326.7072221717372" y2="96.74967991211871" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="326.7072221717372" y1="96.74967991211871" x2="374.95589269425824" y2="72.92216324186818" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="374.95589269425824" y1="72.92216324186818" x2="436.8175742896547" y2="36.687157730002724" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="436.8175742896547" y1="36.687157730002724" x2="500.7615042308824" y2="76.79248199047181" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" /><line x1="500.7615042308824" y1="76.79248199047181" x2="509.25563608770204" y2="150" 
+                stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" />
+            
+        <g transform="translate(509.25563608770204, 150)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.972691001881458;1;0.972691001881458" dur="3.372032316396277s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                JiukOn
+            </text>
+        </g>
+    
+        <g transform="translate(483.89858643656635, 210.9558910856992)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.7590874423528025;1;0.7590874423528025" dur="3.6566089466155236s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                JiukGenius
+            </text>
+        </g>
+    
+        <g transform="translate(432.31815677816127, 249.4650590679958)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.9759417883313026;1;0.9759417883313026" dur="3.5159391701434526s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                Jiukind
+            </text>
+        </g>
+    
+        <g transform="translate(360.0773487594191, 272.869286483525)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.7660406050737257;1;0.7660406050737257" dur="3.828575726654088s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                Jiukisidian
+            </text>
+        </g>
+    
+        <g transform="translate(313.8193840351917, 212.613882588131)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.9756345390290269;1;0.9756345390290269" dur="3.825666965610922s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                CurriculoGen
+            </text>
+        </g>
+    
+        <g transform="translate(312.9380638332315, 150)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.9289557235998663;1;0.9289557235998663" dur="3.860850793840348s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                CoalizaoRPG-BOT
+            </text>
+        </g>
+    
+        <g transform="translate(326.7072221717372, 96.74967991211871)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.9528072882757328;1;0.9528072882757328" dur="3.6006242739910745s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                BootcampGFT
+            </text>
+        </g>
+    
+        <g transform="translate(374.95589269425824, 72.92216324186818)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.9143489619778269;1;0.9143489619778269" dur="3.663651695604171s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                dio-poo-abstracao
+            </text>
+        </g>
+    
+        <g transform="translate(436.8175742896547, 36.687157730002724)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.8827317439145215;1;0.8827317439145215" dur="3.1960262069647936s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                CandyAC1
+            </text>
+        </g>
+    
+        <g transform="translate(500.7615042308824, 76.79248199047181)">
+            <circle r="3" fill="#00d4ff" filter="url(#glow)">
+                <animate attributeName="opacity" values="0.9916072795889584;1;0.9916072795889584" dur="3.8917431233037316s" repeatCount="indefinite" />
+            </circle>
+            <text y="18" text-anchor="middle" fill="#e6edf3" font-size="12" font-family="'Courier New', Courier, monospace" opacity="0.8">
+                ProgEstrutEmC
+            </text>
+        </g>
+    
+        </g>
+        
+        <circle cx="400" cy="150" r="40" fill="url(#centerGradient)" opacity="0.2" filter="url(#glow)" />
+        <defs>
+            <radialGradient id="centerGradient">
+                <stop offset="0%" stop-color="#8b5cf6" />
+                <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+            </radialGradient>
+        </defs>
+    </svg>
+    

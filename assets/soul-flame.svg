@@ -1,0 +1,174 @@
+
+    <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill="#0d1117" />
+        <text x="200" y="30" text-anchor="middle" fill="#8b5cf6" font-size="12" font-family="'Courier New', Courier, monospace" letter-spacing="2" opacity="0.8">
+            SOUL_FLAME // TECH_STACK
+        </text>
+        
+            <g transform="translate(80, 240)">
+                <path fill="#b07219" opacity="0.8">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.494105298119881s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-15,-80 0,-160 Q15,-80 0,0;
+                            M0,0 Q-20,-80 -5,-168 Q10,-80 0,0;
+                            M0,0 Q-10,-80 5,-152 Q20,-80 0,0;
+                            M0,0 Q-15,-80 0,-160 Q15,-80 0,0
+                        "
+                    />
+                </path>
+                
+                <path fill="#ffffff" opacity="0.3">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.494105298119881s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-5,-53.333333333333336 0,-106.66666666666667 Q5,-53.333333333333336 0,0;
+                            M0,0 Q-7,-53.333333333333336 -2,-106.66666666666667 Q3,-53.333333333333336 0,0;
+                            M0,0 Q-3,-53.333333333333336 2,-106.66666666666667 Q7,-53.333333333333336 0,0;
+                            M0,0 Q-5,-53.333333333333336 0,-106.66666666666667 Q5,-53.333333333333336 0,0
+                        "
+                    />
+                </path>
+
+                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Java</text>
+                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">63.8%</text>
+            </g>
+        
+            <g transform="translate(140, 240)">
+                <path fill="#f1e05a" opacity="0.8">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.31356630215536s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-15,-37.443028196214755 0,-74.88605639242951 Q15,-37.443028196214755 0,0;
+                            M0,0 Q-20,-37.443028196214755 -5,-78.63035921205099 Q10,-37.443028196214755 0,0;
+                            M0,0 Q-10,-37.443028196214755 5,-71.14175357280803 Q20,-37.443028196214755 0,0;
+                            M0,0 Q-15,-37.443028196214755 0,-74.88605639242951 Q15,-37.443028196214755 0,0
+                        "
+                    />
+                </path>
+                
+                <path fill="#ffffff" opacity="0.3">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.31356630215536s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-5,-24.962018797476503 0,-49.924037594953006 Q5,-24.962018797476503 0,0;
+                            M0,0 Q-7,-24.962018797476503 -2,-49.924037594953006 Q3,-24.962018797476503 0,0;
+                            M0,0 Q-3,-24.962018797476503 2,-49.924037594953006 Q7,-24.962018797476503 0,0;
+                            M0,0 Q-5,-24.962018797476503 0,-49.924037594953006 Q5,-24.962018797476503 0,0
+                        "
+                    />
+                </path>
+
+                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">JavaScript</text>
+                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">14.0%</text>
+            </g>
+        
+            <g transform="translate(200, 240)">
+                <path fill="#e34c26" opacity="0.8">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.5141195867419026s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
+                            M0,0 Q-20,-20 -5,-42 Q10,-20 0,0;
+                            M0,0 Q-10,-20 5,-38 Q20,-20 0,0;
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0
+                        "
+                    />
+                </path>
+                
+                <path fill="#ffffff" opacity="0.3">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.5141195867419026s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0;
+                            M0,0 Q-7,-13.333333333333334 -2,-26.666666666666668 Q3,-13.333333333333334 0,0;
+                            M0,0 Q-3,-13.333333333333334 2,-26.666666666666668 Q7,-13.333333333333334 0,0;
+                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0
+                        "
+                    />
+                </path>
+
+                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">HTML</text>
+                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">7.0%</text>
+            </g>
+        
+            <g transform="translate(260, 240)">
+                <path fill="#3178c6" opacity="0.8">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.5905112349198696s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
+                            M0,0 Q-20,-20 -5,-42 Q10,-20 0,0;
+                            M0,0 Q-10,-20 5,-38 Q20,-20 0,0;
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0
+                        "
+                    />
+                </path>
+                
+                <path fill="#ffffff" opacity="0.3">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.5905112349198696s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0;
+                            M0,0 Q-7,-13.333333333333334 -2,-26.666666666666668 Q3,-13.333333333333334 0,0;
+                            M0,0 Q-3,-13.333333333333334 2,-26.666666666666668 Q7,-13.333333333333334 0,0;
+                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0
+                        "
+                    />
+                </path>
+
+                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">TypeScript</text>
+                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">6.4%</text>
+            </g>
+        
+            <g transform="translate(320, 240)">
+                <path fill="#663399" opacity="0.8">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.1500864265744024s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0;
+                            M0,0 Q-20,-20 -5,-42 Q10,-20 0,0;
+                            M0,0 Q-10,-20 5,-38 Q20,-20 0,0;
+                            M0,0 Q-15,-20 0,-40 Q15,-20 0,0
+                        "
+                    />
+                </path>
+                
+                <path fill="#ffffff" opacity="0.3">
+                    <animate 
+                        attributeName="d" 
+                        dur="2.1500864265744024s" 
+                        repeatCount="indefinite"
+                        values="
+                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0;
+                            M0,0 Q-7,-13.333333333333334 -2,-26.666666666666668 Q3,-13.333333333333334 0,0;
+                            M0,0 Q-3,-13.333333333333334 2,-26.666666666666668 Q7,-13.333333333333334 0,0;
+                            M0,0 Q-5,-13.333333333333334 0,-26.666666666666668 Q5,-13.333333333333334 0,0
+                        "
+                    />
+                </path>
+
+                <text x="0" y="25" text-anchor="middle" fill="#e6edf3" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">CSS</text>
+                <text x="0" y="40" text-anchor="middle" fill="#6e7681" font-size="10" font-family="'Courier New', Courier, monospace">4.3%</text>
+            </g>
+        
+    </svg>
+    

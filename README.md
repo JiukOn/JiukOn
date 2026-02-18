@@ -1,28 +1,40 @@
-### Hi, I'm João Lagemann 👋
-
-- ✨ I’m currently a Web/Java/Game developer.
-
 <div align="center">
-  <a href="https://linktr.ee/JiukOn">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JiukOn&layout=compact&langs_count=7&theme=midnight-purple"/>
-</div>
-<div style="display: inline_block"><br>
-  
-</div>
-  
-  ##
-  <div> 
-    
-  <a href="https://www.youtube.com/channel/UCg5U5f_OAoqxQwD8LQ-6QCw" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
- 	<a href="https://www.twitch.tv/evjiukon" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
-     <a href="https://www.linkedin.com/in/joaolagemann-jiukon" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</div>
-  
-  <div>
-   
-  <a href = "mailto:jp252529@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
- 
- 
-  ![Snake animation](https://github.com/JiukOn/JiukOn/blob/output/github-contribution-grid-snake.svg)
- 
+  <img src="assets/constellation.svg" width="100%" alt="Projects Constellation" />
+
+  <br/><br/>
+
+  <img src="assets/hud.svg" width="100%" alt="Mission Telemetry" />
+
+  <br/><br/>
+
+  <table width="100%" style="border: none;">
+    <tr>
+      <td width="50%" valign="top">
+        <img src="assets/soul-flame.svg" width="100%" alt="Soul Flame Tech" />
+      </td>
+      <td width="50%" valign="top">
+        <img src="assets/matrix-rain.svg" width="100%" alt="Activity Rain" />
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <a href="https://store.steampowered.com/dev/BadJoke">
+      <img src="https://img.shields.io/badge/Steam-1a2332?style=for-the-badge&logo=steam&logoColor=00d4ff&border=00d4ff" height="35" />
+    </a>
+    <a href="https://www.linkedin.com/in/joaolagemann-jiukon">
+      <img src="https://img.shields.io/badge/LinkedIn-1a2332?style=for-the-badge&logo=linkedin&logoColor=a78bfa&border=a78bfa" height="35" />
+    </a>
+    <a href="https://www.youtube.com/channel/UCg5U5f_OAoqxQwD8LQ-6QCw">
+      <img src="https://img.shields.io/badge/YouTube-1a2332?style=for-the-badge&logo=youtube&logoColor=ff0000&border=ff0000" height="35" />
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/CurseForge-1a2332?style=for-the-badge&logo=curseforge&logoColor=f16436&border=f16436" height="35" />
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/LinkTree-1a2332?style=for-the-badge&logo=linktree&logoColor=43e5a0&border=43e5a0" height="35" />
+    </a>
+  </div>
 </div>

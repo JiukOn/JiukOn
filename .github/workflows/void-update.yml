@@ -1,0 +1,39 @@
+name: Void Architect Protocol
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  construct-profile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install Dependencies
+        run: npm install
+        
+      - name: Generate Void Artifacts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx ts-node src/main.ts
+        
+      - name: Deploy to Reality
+        run: |
+          git config user.name "Void-Bot"
+          git config user.email "bot@jiukon.dev"
+          git add assets/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: void telemetry updated"
+            git push
+          fi
