@@ -45,153 +45,153 @@
 
         <g class="main-container">
             
-            <line x1="542.3801571301216" y1="150" x2="507.6570863595306" y2="228.2174516813448" 
-                stroke="url(#lineGrad)" stroke-width="0.4161073785873497" opacity="0.15">
+            <line x1="515.8264899830035" y1="150" x2="503.99297385119036" y2="225.55531811663923" 
+                stroke="url(#lineGrad)" stroke-width="1.2562625604951427" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="10s" repeatCount="indefinite" />
             </line>
         
-            <line x1="507.6570863595306" y1="228.2174516813448" x2="441.6696132361284" y2="278.2458826572923" 
-                stroke="url(#lineGrad)" stroke-width="0.29433453388579034" opacity="0.15">
+            <line x1="503.99297385119036" y1="225.55531811663923" x2="439.8320933961355" y2="272.5905780965134" 
+                stroke="url(#lineGrad)" stroke-width="0.9419545372638498" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="11s" repeatCount="indefinite" />
             </line>
         
-            <line x1="441.6696132361284" y1="278.2458826572923" x2="365.6183504254946" y2="255.81583687638386" 
-                stroke="url(#lineGrad)" stroke-width="1.5990899708170443" opacity="0.15">
+            <line x1="439.8320933961355" y1="272.5905780965134" x2="359.332113402209" y2="275.1628850737315" 
+                stroke="url(#lineGrad)" stroke-width="0.5629687983677774" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="12s" repeatCount="indefinite" />
             </line>
         
-            <line x1="365.6183504254946" y1="255.81583687638386" x2="302.43511880022265" y2="220.88503543142897" 
-                stroke="url(#lineGrad)" stroke-width="0.13545986070945526" opacity="0.15">
+            <line x1="359.332113402209" y1="275.1628850737315" x2="297.4828979811137" y2="224.48303446458516" 
+                stroke="url(#lineGrad)" stroke-width="1.5322465956397324" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="13s" repeatCount="indefinite" />
             </line>
         
-            <line x1="302.43511880022265" y1="220.88503543142897" x2="286.8008009294361" y2="150" 
-                stroke="url(#lineGrad)" stroke-width="1.9681600718028434" opacity="0.15">
+            <line x1="297.4828979811137" y1="224.48303446458516" x2="275.4740321281622" y2="150.00000000000003" 
+                stroke="url(#lineGrad)" stroke-width="0.936980211354161" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="14s" repeatCount="indefinite" />
             </line>
         
-            <line x1="286.8008009294361" y1="150" x2="280.96172903343785" y2="63.51363368256679" 
-                stroke="url(#lineGrad)" stroke-width="0.782015453603333" opacity="0.15">
+            <line x1="275.4740321281622" y1="150.00000000000003" x2="299.7099564400143" y2="77.13501821816024" 
+                stroke="url(#lineGrad)" stroke-width="0.06518009612922393" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="15s" repeatCount="indefinite" />
             </line>
         
-            <line x1="280.96172903343785" y1="63.51363368256679" x2="355.27188042149237" y2="12.341002724420918" 
-                stroke="url(#lineGrad)" stroke-width="1.2596321483865518" opacity="0.15">
+            <line x1="299.7099564400143" y1="77.13501821816024" x2="356.8168222687916" y2="17.095844813746908" 
+                stroke="url(#lineGrad)" stroke-width="0.6535832906361181" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="16s" repeatCount="indefinite" />
             </line>
         
-            <line x1="355.27188042149237" y1="12.341002724420918" x2="444.8168181744605" y2="12.068016515886228" 
-                stroke="url(#lineGrad)" stroke-width="0.2677381906175964" opacity="0.15">
+            <line x1="356.8168222687916" y1="17.095844813746908" x2="440.1997954520916" y2="26.27775133928496" 
+                stroke="url(#lineGrad)" stroke-width="0.6358560888011304" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="17s" repeatCount="indefinite" />
             </line>
         
-            <line x1="444.8168181744605" y1="12.068016515886228" x2="521.101831439401" y2="62.01436923993842" 
-                stroke="url(#lineGrad)" stroke-width="0.9545418548902225" opacity="0.15">
+            <line x1="440.1997954520916" y1="26.27775133928496" x2="503.3909294013102" y2="74.88209277994828" 
+                stroke="url(#lineGrad)" stroke-width="0.6437562737520817" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="18s" repeatCount="indefinite" />
             </line>
         
-            <line x1="521.101831439401" y1="62.01436923993842" x2="542.3801571301216" y2="150" 
-                stroke="url(#lineGrad)" stroke-width="0.43452661084664523" opacity="0.15">
+            <line x1="503.3909294013102" y1="74.88209277994828" x2="515.8264899830035" y2="150" 
+                stroke="url(#lineGrad)" stroke-width="1.8981711431164032" opacity="0.15">
                 <animate attributeName="stroke-dasharray" from="0, 500" to="500, 0" dur="19s" repeatCount="indefinite" />
             </line>
         
             
             <g class="star-group" style="animation-delay: 0s">
-                <circle cx="542.3801571301216" cy="150" r="2.7725887222397816" fill="#8b5cf6" filter="url(#glow)">
-                    <animate attributeName="r" values="2.7725887222397816;4.158883083359672;2.7725887222397816" dur="3s" repeatCount="indefinite" />
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
+                <circle cx="515.8264899830035" cy="150" r="4.1588830833596715" fill="#8b5cf6" filter="url(#glow)">
+                    <animate attributeName="r" values="4.1588830833596715;6.238324625039507;4.1588830833596715" dur="3s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="1;1;1" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="542.3801571301216" y="167.7725887222398" text-anchor="middle" fill="#e6edf3" font-size="10.8322147571747" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="515.8264899830035" y="169.15888308335968" text-anchor="middle" fill="#e6edf3" font-size="12.512525120990286" font-family="'Courier New', Courier, monospace" class="star-label">
                     JIUKBLOCKER
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 1.5s">
-                <circle cx="507.6570863595306" cy="228.2174516813448" r="2.4000000000000004" fill="#00d4ff" filter="url(#glow)">
+                <circle cx="503.99297385119036" cy="225.55531811663923" r="2.4000000000000004" fill="#00d4ff" filter="url(#glow)">
                     <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
                     <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="507.6570863595306" y="245.61745168134482" text-anchor="middle" fill="#e6edf3" font-size="10.58866906777158" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="503.99297385119036" y="242.95531811663923" text-anchor="middle" fill="#e6edf3" font-size="11.8839090745277" font-family="'Courier New', Courier, monospace" class="star-label">
                     JIUKON
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 3s">
-                <circle cx="441.6696132361284" cy="278.2458826572923" r="3.5999999999999996" fill="#8b5cf6" filter="url(#glow)">
-                    <animate attributeName="r" values="3.5999999999999996;5.3999999999999995;3.5999999999999996" dur="3s" repeatCount="indefinite" />
-                    <animate attributeName="opacity" values="1;1;1" dur="3s" repeatCount="indefinite" />
+                <circle cx="439.8320933961355" cy="272.5905780965134" r="2.4000000000000004" fill="#8b5cf6" filter="url(#glow)">
+                    <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="441.6696132361284" y="296.84588265729235" text-anchor="middle" fill="#e6edf3" font-size="13.198179941634088" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="439.8320933961355" y="289.9905780965134" text-anchor="middle" fill="#e6edf3" font-size="11.125937596735554" font-family="'Courier New', Courier, monospace" class="star-label">
                     JIUKGENIUS
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 4.5s">
-                <circle cx="365.6183504254946" cy="255.81583687638386" r="2.4000000000000004" fill="#00d4ff" filter="url(#glow)">
-                    <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
+                <circle cx="359.332113402209" cy="275.1628850737315" r="3.5999999999999996" fill="#00d4ff" filter="url(#glow)">
+                    <animate attributeName="r" values="3.5999999999999996;5.3999999999999995;3.5999999999999996" dur="3s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="1;1;1" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="365.6183504254946" y="273.21583687638383" text-anchor="middle" fill="#e6edf3" font-size="10.27091972141891" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="359.332113402209" y="293.7628850737315" text-anchor="middle" fill="#e6edf3" font-size="13.064493191279464" font-family="'Courier New', Courier, monospace" class="star-label">
                     KNOWLEDGEGRAPH
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 6s">
-                <circle cx="302.43511880022265" cy="220.88503543142897" r="3.5999999999999996" fill="#8b5cf6" filter="url(#glow)">
-                    <animate attributeName="r" values="3.5999999999999996;5.3999999999999995;3.5999999999999996" dur="3s" repeatCount="indefinite" />
-                    <animate attributeName="opacity" values="1;1;1" dur="3s" repeatCount="indefinite" />
+                <circle cx="297.4828979811137" cy="224.48303446458516" r="2.4000000000000004" fill="#8b5cf6" filter="url(#glow)">
+                    <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="302.43511880022265" y="239.48503543142897" text-anchor="middle" fill="#e6edf3" font-size="13.936320143605688" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="297.4828979811137" y="241.88303446458517" text-anchor="middle" fill="#e6edf3" font-size="11.873960422708322" font-family="'Courier New', Courier, monospace" class="star-label">
                     FEEDBACKHUB
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 7.5s">
-                <circle cx="286.8008009294361" cy="150" r="2.4000000000000004" fill="#00d4ff" filter="url(#glow)">
+                <circle cx="275.4740321281622" cy="150.00000000000003" r="2.4000000000000004" fill="#00d4ff" filter="url(#glow)">
                     <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
                     <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="286.8008009294361" y="167.4" text-anchor="middle" fill="#e6edf3" font-size="11.564030907206666" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="275.4740321281622" y="167.40000000000003" text-anchor="middle" fill="#e6edf3" font-size="10.130360192258447" font-family="'Courier New', Courier, monospace" class="star-label">
                     VTT-COALIZAO
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 9s">
-                <circle cx="280.96172903343785" cy="63.51363368256679" r="3.5999999999999996" fill="#8b5cf6" filter="url(#glow)">
-                    <animate attributeName="r" values="3.5999999999999996;5.3999999999999995;3.5999999999999996" dur="3s" repeatCount="indefinite" />
-                    <animate attributeName="opacity" values="1;1;1" dur="3s" repeatCount="indefinite" />
+                <circle cx="299.7099564400143" cy="77.13501821816024" r="2.4000000000000004" fill="#8b5cf6" filter="url(#glow)">
+                    <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="280.96172903343785" y="82.11363368256679" text-anchor="middle" fill="#e6edf3" font-size="12.519264296773104" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="299.7099564400143" y="94.53501821816025" text-anchor="middle" fill="#e6edf3" font-size="11.307166581272236" font-family="'Courier New', Courier, monospace" class="star-label">
                     JIUKINVEST
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 10.5s">
-                <circle cx="355.27188042149237" cy="12.341002724420918" r="2.4000000000000004" fill="#00d4ff" filter="url(#glow)">
+                <circle cx="356.8168222687916" cy="17.095844813746908" r="2.4000000000000004" fill="#00d4ff" filter="url(#glow)">
                     <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
                     <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="355.27188042149237" y="29.741002724420916" text-anchor="middle" fill="#e6edf3" font-size="10.535476381235192" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="356.8168222687916" y="34.495844813746906" text-anchor="middle" fill="#e6edf3" font-size="11.27171217760226" font-family="'Courier New', Courier, monospace" class="star-label">
                     JIUKIND
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 12s">
-                <circle cx="444.8168181744605" cy="12.068016515886228" r="2.4000000000000004" fill="#8b5cf6" filter="url(#glow)">
+                <circle cx="440.1997954520916" cy="26.27775133928496" r="2.4000000000000004" fill="#8b5cf6" filter="url(#glow)">
                     <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
                     <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="444.8168181744605" y="29.468016515886227" text-anchor="middle" fill="#e6edf3" font-size="11.909083709780445" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="440.1997954520916" y="43.67775133928496" text-anchor="middle" fill="#e6edf3" font-size="11.287512547504164" font-family="'Courier New', Courier, monospace" class="star-label">
                     JIUKISIDIAN
                 </text>
             </g>
         
             <g class="star-group" style="animation-delay: 13.5s">
-                <circle cx="521.101831439401" cy="62.01436923993842" r="2.4000000000000004" fill="#00d4ff" filter="url(#glow)">
-                    <animate attributeName="r" values="2.4000000000000004;3.6000000000000005;2.4000000000000004" dur="3s" repeatCount="indefinite" />
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
+                <circle cx="503.3909294013102" cy="74.88209277994828" r="3.5999999999999996" fill="#00d4ff" filter="url(#glow)">
+                    <animate attributeName="r" values="3.5999999999999996;5.3999999999999995;3.5999999999999996" dur="3s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="1;1;1" dur="3s" repeatCount="indefinite" />
                 </circle>
-                <text x="521.101831439401" y="79.41436923993842" text-anchor="middle" fill="#e6edf3" font-size="10.86905322169329" font-family="'Courier New', Courier, monospace" class="star-label">
+                <text x="503.3909294013102" y="93.48209277994827" text-anchor="middle" fill="#e6edf3" font-size="13.796342286232807" font-family="'Courier New', Courier, monospace" class="star-label">
                     CURRICULOGEN
                 </text>
             </g>
